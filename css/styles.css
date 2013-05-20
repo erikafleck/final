@@ -1,0 +1,81 @@
+
+/* Background Image
+http://css-tricks.com/perfect-full-page-background-image/ */
+
+
+html { 
+	background-color:#000;
+  background: url(../img/cover_med.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Nav */
+nav {
+	color:#fff;
+	margin-top: 0px;
+	padding-bottom: 15px;
+	text-align:center;
+	width:100%;
+}
+
+nav h3 {
+	display: inline;
+	margin-top: 30px;
+	padding: 0px 45px 20px 0;
+}
+
+nav a {
+	color:#fff;
+	font-family: 'Karla', sans-serif;
+	font-size: 34px;	
+	letter-spacing:2px;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+/* Header */
+
+header {
+	align:bottom;
+}
+
+/* Body */
+
+h1 {
+	color: #fff;
+	font-family: 'Karla', sans-serif;
+	font-size: 48px;
+	letter-spacing: 2px;
+	margin:0px;
+	text-align: center;
+}
+
+p {
+	color:#000;
+}
+
+section ul {
+	margin-top: 60px;
+	list-style:none;
+}
+
+section li {
+	color:#fff;
+	font-family: 'Karla', sans-serif;
+	font-size: 24px;
+	letter-spacing: 2px;
+	padding-bottom: 30px;
+	text-align:left;
+}
+
+/* Footer */
+address {
+	font-family: 'Karla', sans-serif;
+	font-size: 18px;	
+	text-align: center;
+	width: 100%;
+}
+	
